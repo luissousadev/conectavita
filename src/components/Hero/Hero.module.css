@@ -5,13 +5,13 @@
   align-items: center;
   background: linear-gradient(145deg, #f0f7f4 0%, #f8f8f8 50%, #edf7f2 100%);
   overflow: hidden;
-  padding-top: 80px;
+  padding-top: 40px;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 80px 24px;
+  padding: 40px 24px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 64px;
