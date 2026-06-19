@@ -258,8 +258,7 @@
   }
 
   .floatingCard {
-    left: 50%;
-    transform: translateX(-50%);
+    left: 12px;
     bottom: -20px;
     white-space: nowrap;
   }

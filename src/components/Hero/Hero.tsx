@@ -18,6 +18,32 @@ export default function Hero() {
   return (
     <section id="hero" className={styles.section}>
       <div className={styles.container}>
+        <motion.div
+          className={styles.imageWrapper}
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.9, delay: 0.2, ease }}
+        >
+          <div className={styles.imageBg} />
+          <div className={styles.imageInner}>
+            <Image
+              src="/isabelle.jpg"
+              alt="Isabelle Brandão — Enfermeira e Terapeuta Integrativa"
+              fill
+              priority
+              sizes="(max-width: 768px) 100vw, 50vw"
+              className={styles.photo}
+            />
+          </div>
+          <div className={styles.floatingCard}>
+            <span className={styles.floatingIcon}>✦</span>
+            <div>
+              <p className={styles.floatingName}>Isabelle Brandão</p>
+              <p className={styles.floatingRole}>Enfermeira · Terapeuta Integrativa</p>
+            </div>
+          </div>
+        </motion.div>
+
         <div className={styles.content}>
           <motion.span className={styles.badge} {...anim(0.1)}>
             🌿 Terapia Integrativa
@@ -68,32 +94,6 @@ export default function Hero() {
             </div>
           </motion.div>
         </div>
-
-        <motion.div
-          className={styles.imageWrapper}
-          initial={{ opacity: 0, scale: 0.95 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.9, delay: 0.2, ease }}
-        >
-          <div className={styles.imageBg} />
-          <div className={styles.imageInner}>
-            <Image
-              src="/isabelle.jpg"
-              alt="Isabelle Brandão — Enfermeira e Terapeuta Integrativa"
-              fill
-              priority
-              sizes="(max-width: 768px) 100vw, 50vw"
-              className={styles.photo}
-            />
-          </div>
-          <div className={styles.floatingCard}>
-            <span className={styles.floatingIcon}>✦</span>
-            <div>
-              <p className={styles.floatingName}>Isabelle Brandão</p>
-              <p className={styles.floatingRole}>Enfermeira · Terapeuta Integrativa</p>
-            </div>
-          </div>
-        </motion.div>
       </div>
 
       <div className={styles.leafLeft} aria-hidden="true" />
