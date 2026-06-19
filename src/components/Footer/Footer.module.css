@@ -1,0 +1,118 @@
+.footer {
+  background: #0a0a0a;
+  color: rgba(255, 255, 255, 0.75);
+  padding: 56px 0 32px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 48px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  flex-wrap: wrap;
+}
+
+/* ── Brand ── */
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  gap: 2px;
+}
+
+.logoConecta {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--color-light);
+  letter-spacing: 0.08em;
+}
+
+.logoVita {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--color-white);
+  letter-spacing: 0.2em;
+}
+
+.brandSub {
+  font-size: 14px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.brandSub span {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 13px;
+}
+
+/* ── Contact ── */
+.contactTitle {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-accent);
+  margin-bottom: 16px;
+}
+
+.contactList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contactList li a,
+.contactList li span {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.65);
+  transition: color var(--transition);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.contactList li a:hover {
+  color: var(--color-light);
+}
+
+/* ── Bottom ── */
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 28px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.copyright {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.35);
+}
+
+.tagline {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.25);
+  font-style: italic;
+}
+
+@media (max-width: 560px) {
+  .bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

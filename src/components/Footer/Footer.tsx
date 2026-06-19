@@ -1,0 +1,57 @@
+import styles from "./Footer.module.css";
+
+export default function Footer() {
+  return (
+    <footer className={styles.footer}>
+      <div className={styles.container}>
+        <div className={styles.top}>
+          <div className={styles.brand}>
+            <div className={styles.logo}>
+              <span className={styles.logoConecta}>conecta</span>
+              <span className={styles.logoVita}>VITA</span>
+            </div>
+            <p className={styles.brandSub}>
+              Isabelle Brandão
+              <br />
+              <span>Enfermeira e Terapeuta Integrativa</span>
+            </p>
+          </div>
+
+          <div className={styles.contact}>
+            <h4 className={styles.contactTitle}>Contato &amp; Redes</h4>
+            <ul className={styles.contactList}>
+              <li>
+                <a
+                  href="https://wa.me/5571996508951"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  📱 (71) 99650-8951
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://instagram.com/conectavita"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  📸 @conectavita
+                </a>
+              </li>
+              <li>
+                <span>📍 Imbuí — Salvador/BA</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className={styles.bottom}>
+          <p className={styles.copyright}>
+            © 2026 Conecta Vita. Todos os direitos reservados.
+          </p>
+          <p className={styles.tagline}>Cuidando do corpo, equilibrando a vida.</p>
+        </div>
+      </div>
+    </footer>
+  );
+}
