@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import styles from "./Navbar.module.css";
 
 export default function Navbar() {
@@ -16,8 +17,14 @@ export default function Navbar() {
     <header className={`${styles.header} ${scrolled ? styles.scrolled : ""}`}>
       <nav className={styles.nav}>
         <a href="#hero" className={styles.logo}>
-          <span className={styles.logoConecta}>conecta</span>
-          <span className={styles.logoVita}>VITA</span>
+          <Image
+            src="/logoconectavita.png"
+            alt="Conecta Vita"
+            width={140}
+            height={48}
+            priority
+            className={styles.logoImg}
+          />
         </a>
         <ul className={styles.links}>
           <li><a href="#servicos">Serviços</a></li>
