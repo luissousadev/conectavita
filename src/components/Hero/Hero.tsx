@@ -27,7 +27,7 @@ export default function Hero() {
           <div className={styles.imageBg} />
           <div className={styles.imageInner}>
             <Image
-              src="/isabelle.jpg"
+              src="/IsabelleBrandao.png"
               alt="Isabelle Brandão — Enfermeira e Terapeuta Integrativa"
               fill
               priority
@@ -63,6 +63,11 @@ export default function Hero() {
             Sou Isabelle Brandão, Enfermeira e Terapeuta Integrativa. Meu
             propósito é ajudar você a encontrar mais saúde, bem-estar e
             qualidade de vida através de um atendimento humanizado e acolhedor.
+          </motion.p>
+          
+          <motion.p className={styles.bio} {...anim(0.44)}>
+            A dor, seja ela física ou emocional, é um sinal de que algo precisa de atenção e cuidado. 
+            No atendimento integrativo, olhamos para a sua dor não apenas como um sintoma isolado, mas compreendendo suas origens para restabelecer o equilíbrio natural do seu corpo e da sua mente.
           </motion.p>
 
           <motion.div className={styles.ctas} {...anim(0.54)}>

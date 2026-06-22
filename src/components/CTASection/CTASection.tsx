@@ -47,14 +47,6 @@ export default function CTASection() {
             </svg>
             Agendar pelo WhatsApp
           </a>
-          <a
-            href="https://wa.me/5571996508951"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.btnSecondary}
-          >
-            Falar com Isabelle
-          </a>
         </div>
       </motion.div>
     </section>

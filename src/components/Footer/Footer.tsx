@@ -22,15 +22,6 @@ export default function Footer() {
             <ul className={styles.contactList}>
               <li>
                 <a
-                  href="https://wa.me/5571996508951"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  📱 (71) 99650-8951
-                </a>
-              </li>
-              <li>
-                <a
                   href="https://instagram.com/conectavita"
                   target="_blank"
                   rel="noopener noreferrer"

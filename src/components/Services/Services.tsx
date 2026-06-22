@@ -94,7 +94,7 @@ export default function Services() {
           <span className={styles.sectionLabel}>O que ofereço</span>
           <h2 className={styles.title}>Meus Serviços</h2>
           <p className={styles.subtitle}>
-            Cada serviço é oferecido com escuta ativa, técnica precisa e
+            Cada serviço é oferecido com escuta ativa, técnica precisa, anamnese, consulta de enfermagem e
             cuidado genuíno com o seu bem-estar.
           </p>
         </motion.div>
