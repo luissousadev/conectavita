@@ -30,7 +30,8 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <span>📍 Imbuí — Salvador/BA</span>
+                <span>📍Conjunto Guilherme Marback s/n St 1 Bl 60</span>
+                <span> Av. Paulista, 202, Salvador - BA, 41720-005</span>
               </li>
             </ul>
           </div>
