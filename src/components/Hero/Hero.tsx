@@ -27,7 +27,7 @@ export default function Hero() {
           <div className={styles.imageBg} />
           <div className={styles.imageInner}>
             <Image
-              src="/IsabelleBrandao4.png"
+              src="/IsabeleBrandaoDef.png"
               alt="Isabelle Brandão — Enfermeira e Terapeuta Integrativa"
               fill
               priority
