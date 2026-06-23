@@ -24,6 +24,15 @@
   justify-content: space-between;
 }
 
+.nomeLogo {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  gap: 10px;
+  font-weight: bold;
+
+}
+
 .logo {
   display: flex;
   align-items: center;

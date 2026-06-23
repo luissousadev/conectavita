@@ -16,16 +16,20 @@ export default function Navbar() {
   return (
     <header className={`${styles.header} ${scrolled ? styles.scrolled : ""}`}>
       <nav className={styles.nav}>
-        <a href="#hero" className={styles.logo}>
-          <Image
-            src="/logoconectavita.png"
-            alt="Conecta Vita"
-            width={140}
-            height={48}
-            priority
-            className={styles.logoImg}
-          />
-        </a>
+        <div className={styles.nomeLogo}>
+          <a href="#hero" className={styles.logo}>
+            <Image
+              src="/logoconectavita.png"
+              alt="Conecta Vita"
+              width={140}
+              height={48}
+              priority
+              className={styles.logoImg}
+            />
+          </a>
+          <span>Conecta Vita</span>
+        </div>
+        
         <ul className={styles.links}>
           <li><a href="#servicos">Serviços</a></li>
           <li><a href="#contato">Contato</a></li>

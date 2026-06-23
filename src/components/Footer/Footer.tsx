@@ -22,11 +22,11 @@ export default function Footer() {
             <ul className={styles.contactList}>
               <li>
                 <a
-                  href="https://instagram.com/conectavita"
+                  href="https://instagram.com/arcadas_fitness"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  📸 @conectavita
+                  📸 @arcadas_fitness
                 </a>
               </li>
               <li>
