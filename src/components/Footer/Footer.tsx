@@ -28,6 +28,13 @@ export default function Footer() {
                 >
                   📸 @arcadas_fitness
                 </a>
+                <a
+                  href="https://instagram.com/conectavita"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  📸 @conectavita
+                </a>
               </li>
               <li>
                 <span>📍Conjunto Guilherme Marback s/n St 1 Bl 60</span>
